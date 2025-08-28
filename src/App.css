@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #0d1f3c, #3a6bbf); 
+    min-height: 100vh;
+    color: white; 
+}
+
+.navbar {
+    width: calc(100vw - 76px); 
+    padding: 15px 30px;
+    background: linear-gradient(to right, #0d1f3c, #3a6bbf); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.recharts-cartesian-grid line {
+    stroke: rgba(255,255,255,0.3);
+}
+
+.recharts-text tspan {
+    fill: white;
+}
+
+.recent-user-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #1a2a4a; 
+    color: white;
+}
+
+.recent-user-card img {
+    border-radius: 50%;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
