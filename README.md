@@ -1,12 +1,70 @@
-# React + Vite
+Dashboard & User Management Application
+Project Description
+This project is a single-page application built with React that focuses on two key functionalities: a data dashboard with interactive visualizations and a user management list with in-memory pagination. The application fetches data from a provided API to present key metrics and user information in a clear and organized manner.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+1. Dashboard with Data Visualizations
+The dashboard provides a visual summary of user data using various charts and key performance indicators (KPIs).
 
-Currently, two official plugins are available:
+Total Users Tile: A large number block displaying the total count of users.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Users Created Per Day: A line or bar chart showing the number of new users over the last 30 days.
 
-## Expanding the ESLint configuration
+Avatar Distribution: A pie chart illustrating the distribution of users with or without profile pictures.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Signup Time of Day Distribution: A pie or heatmap chart representing the most active signup hours.
+
+Recently Joined Users: A horizontal list showcasing the top 5 newest users.
+
+2. User List with In-Memory Pagination
+This section displays a list of all users with robust filtering and navigation features.
+
+In-Memory Pagination: The user list is paginated, displaying a fixed number of users per page (e.g., 10 users).
+
+Sorting: Users can be sorted by name or creation date.
+
+Search: A search feature allows users to filter the list by a user's name or email.
+
+User Details: Each row is clickable to view a user's detailed information, which can be displayed in a modal or on a separate page.
+
+3. Optional Enhancements
+User Management: The ability to create, edit, or delete user entries.
+
+Avatar Preview: A modal or pop-up to show a full-size preview of a user's avatar.
+
+Enhanced Search: Additional search filters and functionalities.
+
+Technologies Used
+React: The core JavaScript library for building the user interface.
+
+Recharts: A popular chart library for React used to create the data visualizations on the dashboard.
+
+HTML, CSS: For structuring and styling the application.
+
+JavaScript (ES6+): For application logic and interactivity.
+
+Setup and Installation
+Follow these steps to get the project up and running on your local machine.
+
+Prerequisites
+Node.js (LTS version recommended)
+
+npm or yarn
+
+Installation Steps
+Clone the repository:
+
+git clone [repository-url]
+cd [project-folder]
+
+Install dependencies:
+
+npm install
+# or
+yarn install
+
+Start the development server:
+
+npm start
+# or
+yarn start
